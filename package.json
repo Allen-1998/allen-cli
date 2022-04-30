@@ -1,0 +1,28 @@
+{
+  "name": "allen-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "allen-cli": "bin/init.js"
+  },
+  "files": [
+    "./bin",
+    "./src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tag": "npm version patch && git push && git push origin --tags"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^4.0.0",
+    "commander": "^9.2.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^10.0.1",
+    "inquirer": "^8.2.4"
+  }
+}
