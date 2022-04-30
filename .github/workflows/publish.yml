@@ -22,9 +22,6 @@ jobs:
           registry-url: "https://registry.npmjs.org/"
           # Defaults to the user or organization that owns the workflow file
 
-      - name: ⏳ Install dependencies
-        run: npm i
-
       - name: 📦 Publish
         run: npm publish
         env:

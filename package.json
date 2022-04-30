@@ -14,9 +14,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "tag": "npm version patch && git push && git push origin --tags"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "allen-cli",
+    "cli",
+    "脚手架"
+  ],
+  "author": "allen-1998",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.27.2",
     "chalk": "^4.0.0",
