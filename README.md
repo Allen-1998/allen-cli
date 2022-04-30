@@ -2,10 +2,10 @@
 
 ```shell
 # install it globally
-$ npm install -g @allen/cli
+$ npm install -g ttk-cli
 
 # or yarn
-$ yarn global add @allen/cli
+$ yarn global add ttk-cli
 ```
 
 ### 使用
@@ -13,7 +13,7 @@ $ yarn global add @allen/cli
 #### Quick Start
 
 ```shell
-$ allen create <name> [-f|--force]
+$ ttk create <name> [-f|--force]
 ```
 
 #### Options

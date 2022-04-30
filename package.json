@@ -1,12 +1,12 @@
 {
-  "name": "@allen/cli",
+  "name": "ttk-cli",
   "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/Allen-1998/allen-cli.git"
   },
   "bin": {
-    "allen": "bin/init.js"
+    "ttk": "bin/init.js"
   },
   "files": [
     "./bin",
@@ -23,9 +23,6 @@
   ],
   "author": "allen-1998",
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "axios": "^0.27.2",
     "chalk": "^4.0.0",
