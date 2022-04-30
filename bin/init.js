@@ -26,16 +26,16 @@ program.on("--help", function () {
   console.log();
   console.log(
     `Run ${chalk.cyan(
-      "allen-cli <command> --help"
+      "ttk-cli <command> --help"
     )} for detailed usage of given command.`
   );
   console.log();
 });
 
 program
-  .name("allen-cli")
+  .name("ttk-cli")
   .usage(`<command> [option]`)
-  .version(`allen-cli ${require("../package.json").version}`);
+  .version(`ttk-cli ${require("../package.json").version}`);
 
 // 解析用户执行时输入的参数
 program.parse(process.argv);
