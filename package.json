@@ -1,10 +1,10 @@
 {
-  "name": "allen-cli",
+  "name": "@allen/cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "bin": {
-    "allen-cli": "bin/init.js"
+    "allen": "bin/init.js"
   },
   "files": [
     "./bin",
@@ -15,7 +15,7 @@
     "tag": "npm version patch && git push && git push origin --tags"
   },
   "keywords": [
-    "allen-cli",
+    "@allen/cli",
     "cli",
     "脚手架"
   ],

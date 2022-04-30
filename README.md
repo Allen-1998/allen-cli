@@ -2,10 +2,10 @@
 
 ```shell
 # install it globally
-$ npm install -g allen-cli
+$ npm install -g @allen/cli
 
 # or yarn
-$ yarn global add allen-cli
+$ yarn global add @allen/cli
 ```
 
 ### 使用
@@ -13,7 +13,7 @@ $ yarn global add allen-cli
 #### Quick Start
 
 ```shell
-$ zr create <name> [-f|--force]
+$ allen create <name> [-f|--force]
 ```
 
 #### Options
